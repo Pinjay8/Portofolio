@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Alvin Cennanda</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="header-section" id="header">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6 animate__animated animate__fadeInLeft">
+            <h5 class="fw-semibold">Hello, I'm</h5>
+            <h1 class="text-orange mb-4">Alvin Cennanda</h1>
+            <h5 class="text-uppercase fw-bold mb-5">
+              Front End Developer<br class="d-none d-md-block" />
+              Based in Indonesia
+            </h5>
+            <p></p>
+            <a href="https://drive.google.com/file/d/12P31dbvQHVkExiy-eB3B0wlKmdRy2j84/view?usp=sharing" class="header-skill d-inline-flex align-items-center gap-2 border border-warning p-2 rounded-pill"
+              >Download CV <i class="bx bx-right-arrow-alt fs-4"></i
+            ></a>
+            <br />
+            <!-- <a href="" class="header-skill d-inline-flex align-items-center gap-2">Mobile Development <i class="bx bx-right-arrow-alt fs-4"></i></a>
+            <br />
+            <a href="" class="header-skill d-inline-flex align-items-center gap-2">Graphic Designer <i class="bx bx-right-arrow-alt fs-4"></i></a> -->
+            <div class="d-flex align-items-center gap-4 mt-5">
+              <div class="d-flex align-items-center gap-2">
+                <h2 class="header-skill fw-bold mb-0">1</h2>
+                <h6 class="text-secondary mb-0">Real Project</h6>
+              </div>
+              <div class="gap-2">
+                <h4 class="header-skill fw-bold mb-2">Contact</h4>
+                <!-- <p class="text-secondary fs-7 mb-0">Happy <br />Customer</p> -->
+                <a href="https://github.com/Pinjay8/" class="text-black"><i class="bx bxl-github bx-md"></i></a>
+                <a href="https://www.linkedin.com/in/alvincennanda/"><i class="bx bxl-linkedin bx-md"></i></a>
+                <a href="https://www.instagram.com/alvin_cennanda/" class="text-pink"><i class="bx bxl-instagram bx-md"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="./img/CVProfile.png" alt="" class="header-img animate__animated animate__fadeInRight" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portofolio -->
+
+    <section class="portofolio-section" id="portofolio">
+      <div class="container">
+        <p class="text-orange fw-semibold">Project Portofolio</p>
+        <h2 class="section-title mb-5">Selected Works</h2>
+
+        <div class="swiper portofolio-swipper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/PictureGoFit.jpg" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold">GoFit</h6>
+                  <p class="fs-7 opacity-50 text-justify">
+                    Gofit is a website and android-based application that can be used by the general public. GoFit is also intended for employees to manage various data such as members, instructors, and gym transactions.
+                  </p>
+                  <a href="https://quashafit.my.id/" class="text-orange">Detail Portofolio</a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/portfolio-2.jpg" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold">Ride Share App</h6>
+                  <a href="" class="text-orange">Detail Portofolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/portfolio-3.jpg" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold">E-Learning Online Course</h6>
+                  <a href="" class="text-orange">Detail Portofolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/portfolio-4.jpg" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold">Restaurant Website Template</h6>
+                  <a href="" class="text-orange">Detail Portofolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/portfolio-5.jpg" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold">Restaurant Website Template</h6>
+                  <a href="" class="text-orange">Detail Portofolio</a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="d-flex align-items-center justify-content-end gap-3 m-3">
+            <button class="btn btn-light d-flex align-items-center justify-content-center button-prev">
+              <i class="bx bx-left-arrow-alt fs-5"></i>
+            </button>
+            <button class="btn btn-light d-flex align-items-center justify-content-center button-next">
+              <i class="bx bx-right-arrow-alt fs-5"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6">
+            <p class="text-orange fw-semibold">Skills</p>
+            <h2 class="section-title mb-5 text-white">Programming Skills</h2>
+            <div class="mb-3">
+              <div class="mb-2">
+                <p class="text-white text-upeprcase fw-semibold mb-0">HTML</p>
+                <p class="text-white text-upeprcase mb-0 opacity-50">Intermediate</p>
+              </div>
+              <!-- <div class="progress-bar">
+                <span class="progress" style="width: 90%"></span>
+              </div> -->
+            </div>
+            <div class="mb-3">
+              <div class="mb-2">
+                <p class="text-white text-upeprcase fw-semibold mb-0">CSS</p>
+                <p class="text-white text-upeprcase mb-0 opacity-50">Intermediate</p>
+              </div>
+              <!-- <div class="progress-bar">
+                <span class="progress" style="width: 80%"></span>
+              </div> -->
+            </div>
+            <div class="mb-3">
+              <div class="mb-2">
+                <p class="text-white text-upeprcase fw-semibold mb-0">Javascript</p>
+                <p class="text-white text-upeprcase mb-0 opacity-50">Intermediate</p>
+              </div>
+              <!-- <div class="progress-bar">
+                <span class="progress" style="width: 70%"></span>
+              </div> -->
+            </div>
+            <div class="mb-3">
+              <div class="mb-2">
+                <p class="text-white text-upeprcase fw-semibold mb-0">Laravel</p>
+                <p class="text-white text-upeprcase mb-0 opacity-50">Beginner</p>
+              </div>
+              <!-- <div class="progress-bar">
+                <span class="progress" style="width: 60%"></span>
+              </div> -->
+            </div>
+            <div class="mb-3">
+              <div class="mb-2">
+                <p class="text-white text-upeprcase fw-semibold mb-0">Bootstrap</p>
+                <p class="text-white text-upeprcase mb-0 opacity-50">Intermediate</p>
+              </div>
+              <!-- <div class="progress-bar">
+                <span class="progress" style="width: 50%"></span>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-md-5 d-flex justify-content-center">
+            <img src="./img/skill-photo.png" alt="" class="skills-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Working Period-->
+    <section class="timeline-section" id="timeline">
+      <div class="container">
+        <p class="text-orange fw-semibold">Timeline</p>
+        <h2 class="section-title mb-5">Organization</h2>
+
+        <div class="row py-3 border-botttom working-period-item">
+          <div class="col-md-4">July, 2022 - June, 2023</div>
+          <div class="col-md-4">Member</div>
+          <div class="col-md-4">(KSAD) Application & Database Study Group</div>
+        </div>
+        <div class="row py-3 border-botttom working-period-item">
+          <div class="col-md-4">Sep, 2021 - July, 2022</div>
+          <div class="col-md-4">Member</div>
+          <div class="col-md-4">(KSP) Java Programming Study Group</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="portofolio-section" id="contact">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6">
+            <p class="text-orange fw-semibold">Contact</p>
+            <h2 class="section-title mb-5">Get in Touch</h2>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-map-pin text-orange fs-5"></i>
+              <div class="mb-0">Jalan Tambak Bayan V No 5A, Yogyakarta</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-phone-call text-orange fs-5"></i>
+              <div class="mb-0">085157589220</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-envelope text-orange fs-5"></i>
+              <div class="mb-0">Alvincennanda@gmail.com</div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <form action="">
+              <input type="text" name="name" id="name" placeholder="Name" class="form-control rounded-0 mb-2" />
+              <input type="email" name="email" id="email" placeholder="Email" class="form-control rounded-0 mb-2" />
+              <textarea name="body" id="body" placeholder="Message" cols="30" rows="3" class="form-control rounded-0 mb-3"></textarea>
+              <button class="btn btn-orange w-100 rounded-0">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-3">
+      <div class="container">
+        <h6 class="text-white mb-0">Copyright &copy; By Alvin Cennanda All Right Reserved</h6>
+      </div>
+    </footer>
+    <script src="vendors/bootstrap//js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
