@@ -84,9 +84,9 @@ section a {
   color: var(--dark--color);
 }
 
-/* .header-section .header-skill:hover {
+.header-section .header-skill:hover {
   color: var(--txt--main);
-} */
+}
 
 .header-section .header-skill i {
   transition: 0.3s;
