@@ -124,6 +124,12 @@ section a {
   background-color: var(--txt--main);
 }
 
+.skills-img {
+  width: 300px;
+  height: auto;
+  padding-top: 100px;
+}
+
 /* News */
 #news {
   background-color: var(--dark--color);
@@ -135,7 +141,7 @@ section a {
 
 @media screen and (max-width: 768px) {
   section {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .portofolio-section .card .card-img-top {
     height: 100px;
@@ -157,35 +163,6 @@ section a {
     padding: 10px 30px;
   }
 }
-
-/* Swiper */
-
-/* CSS Section */
-/* nav { */
-/* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-/* padding: 10px 100px; */
-/* color: var(--txt--main); */
-/* position: fixed;
-  width: 100%; */
-/* } */
-
-/* .navbar li {
-  display: inline-block;
-  list-style: none;
-  padding: 10px;
-}
-
-.navbar li a {
-  color: black;
-  text-decoration: none;
-}
-
-.navbar li a:hover {
-  color: var(--txt--main);
-  transition: 0.3s ease-in;
-} */
 
 /* Navbar */
 
