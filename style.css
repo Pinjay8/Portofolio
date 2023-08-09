@@ -75,6 +75,10 @@ section a {
   text-decoration: none;
 }
 
+.card {
+  height: 470px;
+}
+
 /* Header */
 .header-section .header-title {
   font-size: var(--h1--font-size);

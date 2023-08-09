@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AceDev</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="vendors/boxicons/css/boxicons.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -65,7 +66,7 @@
                 <h6 class="text-secondary mb-0">Experience</h6>
               </div>
               <div class="d-flex align-items-center gap-2">
-                <h2 class="header-skill fw-bold mb-0">1</h2>
+                <h2 class="header-skill fw-bold mb-0">2</h2>
                 <h6 class="text-secondary mb-0">Real Project</h6>
               </div>
             </div>
@@ -86,7 +87,7 @@
 
     <!-- Portofolio -->
 
-    <section class="portofolio-section" id="portofolio">
+    <section class="portofolio-section" id="portofolio" data-aos="fade-right" data-aos-duration="1000">
       <div class="container">
         <p class="text-orange fw-semibold">Project Portofolio</p>
         <h2 class="section-title mb-5">Selected Works</h2>
@@ -100,7 +101,17 @@
                   <p class="fs-7 opacity-50 text-justify">
                     Gofit is a website and android-based application that can be used by the general public. GoFit is also intended for employees to manage various data such as members, instructors, and gym transactions.
                   </p>
-                  <a href="https://quashafit.my.id/" class="text-orange">Detail Portofolio</a>
+                  <a href="https://github.com/Pinjay8/GoFit" class="text-orange">Detail Portofolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/Mockup Team.png" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold">Team</h6>
+                  <p class="fs-7 opacity-50 text-justify">Team is a website application used by everyone and provides news blogs that can be read by readers.</p>
+                  <a href="https://github.com/Pinjay8/Team" class="text-orange">Detail Portofolio</a>
                 </div>
               </div>
             </div>
@@ -121,7 +132,7 @@
     <section class="skills-section" id="skills">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
             <p class="text-orange fw-semibold">Skills</p>
             <h2 class="section-title mb-5 text-white">Programming Skills</h2>
             <div class="mb-3">
@@ -129,9 +140,6 @@
                 <p class="text-white text-upeprcase fw-semibold mb-0">HTML</p>
                 <p class="text-white text-upeprcase mb-0 opacity-50">Intermediate</p>
               </div>
-              <!-- <div class="progress-bar">
-                <span class="progress" style="width: 90%"></span>
-              </div> -->
             </div>
             <div class="mb-3">
               <div class="mb-2">
@@ -170,7 +178,7 @@
               </div> -->
             </div>
           </div>
-          <div class="col-md-6 d-flex justify-content-center">
+          <div class="col-md-6 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
             <img src="./img/PictureSkill.png" alt="Gambar Skill" class="skills-img" />
           </div>
         </div>
@@ -178,7 +186,7 @@
     </section>
 
     <!-- Working Period-->
-    <section class="timeline-section" id="timeline">
+    <section class="timeline-section" id="timeline" data-aos="fade-up">
       <div class="container">
         <p class="text-orange fw-semibold">Timeline</p>
         <h2 class="section-title mb-5">Organization</h2>
@@ -201,7 +209,7 @@
     <section class="portofolio-section" id="contact">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-down" data-aos-easing="linear">
             <p class="text-orange fw-semibold">Contact</p>
             <h2 class="section-title mb-5">Get in Touch</h2>
             <div class="d-flex align-items-center gap-2 mb-3">
@@ -217,7 +225,7 @@
               <div class="mb-0">Alvincennanda@gmail.com</div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-down" data-aos-easing="linear">
             <form action="">
               <input type="text" name="name" id="name" placeholder="Name" class="form-control rounded-0 mb-2" />
               <input type="email" name="email" id="email" placeholder="Email" class="form-control rounded-0 mb-2" />
@@ -234,8 +242,14 @@
         <h6 class="text-white mb-0">Copyright &copy; By Alvin Cennanda All Right Reserved</h6>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="vendors/bootstrap//js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
