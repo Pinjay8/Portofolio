@@ -7,14 +7,18 @@ var swiper = new Swiper(".portofolio-swipper", {
   },
   breakpoints: {
     // when window width is >= 320px
-    320: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 5,
+    },
+    576: {
       slidesPerView: 2,
       spaceBetween: 20,
     },
     // when window width is >= 480px
-    480: {
+    1080: {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 10,
     },
   },
 });
