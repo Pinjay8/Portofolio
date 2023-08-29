@@ -29,9 +29,13 @@ img {
   max-width: 100%;
 }
 
-/* Global Css */
+.swiper-slide {
+  height: auto;
+}
+
+/* Utilities*/
 section {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 section .section-title {
@@ -75,9 +79,11 @@ section a {
   text-decoration: none;
 }
 
-.card {
-  height: 430px;
+.icon-check {
+  color: greenyellow;
 }
+
+/* End Utilities */
 
 /* Header */
 .header-section .header-title {
@@ -102,7 +108,13 @@ section a {
 
 .header-section .header-img .skills-section .skills-img {
   width: 90%;
+  image-rendering: pixelated;
 }
+
+.about-title {
+  text-align: justify;
+}
+/* End Header */
 
 /* Portofolio */
 .portofolio-section .card .card-img-top {
@@ -143,10 +155,11 @@ section a {
   border: 2px solid var(--txt--main);
 }
 
+/* End News */
+
 footer {
   background-color: black;
   color: white;
-  margin-top: auto;
   text-align: center;
 }
 
@@ -164,24 +177,13 @@ footer {
   section {
     padding-top: 20px;
   }
+
   .portofolio-section .card .card-img-top {
-    height: 100px;
+    height: 200px;
   }
 
   .header-section .header-img {
-    width: 80%;
     margin-top: 60px;
-  }
-
-  .skills-section .skills-img {
-    width: 80%;
-    margin-top: 60px;
-  }
-
-  .navbar-collapse {
-    margin-top: 20px;
-    background-color: rgb(195, 194, 194);
-    padding: 10px 20px;
   }
 }
 
@@ -189,11 +191,15 @@ footer {
   .card-title {
     font-size: 11px;
   }
+
+  .navbar-collapse {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .card-title {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .nav-item .nav-link {
