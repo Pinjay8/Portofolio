@@ -86,6 +86,12 @@ section a {
 /* End Utilities */
 
 /* Header */
+
+.header-section {
+  margin-top: 70px;
+  background-color: #0d1117;
+}
+
 .header-section .header-title {
   font-size: var(--h1--font-size);
 }
@@ -111,6 +117,10 @@ section a {
   image-rendering: pixelated;
 }
 
+.navbar {
+  background-color: #0d1117;
+}
+
 .about-title {
   text-align: justify;
 }
@@ -123,10 +133,16 @@ section a {
   object-fit: cover;
 }
 
+.portofolio-section {
+  background-image: url(img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 /* Skills */
 
 .skills-section {
-  background-color: #030304;
+  background-color: #0d1117;
 }
 
 .skills-section .progress-bar {
@@ -155,6 +171,13 @@ section a {
   border: 2px solid var(--txt--main);
 }
 
+/* Timeline */
+.timeline-section {
+  background-image: url(img/wave_2.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 /* End News */
 
 footer {
@@ -174,16 +197,13 @@ footer {
     font-size: 12px;
   }
 
-  section {
-    padding-top: 20px;
-  }
-
   .portofolio-section .card .card-img-top {
     height: 200px;
   }
 
-  .header-section .header-img {
-    margin-top: 60px;
+  .header-section,
+  .header-img {
+    margin-top: 100px;
   }
 }
 

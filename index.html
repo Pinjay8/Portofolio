@@ -14,62 +14,63 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="container py-3">
-      <nav class="navbar navbar-expand-lg overflow-x-hidden">
-        <a class="navbar-brand fw-bold" href="#">AceDev.</a>
-        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <nav class="navbar navbar-expand-lg overflow-x-hidden fixed-top" data-bs-theme="dark"> 
+      <div class="container py-3">
+        <a class="navbar-brand fw-bold text-white" href="#">AceDev.</a>
+        <button class="navbar-toggler border-0 shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-md-3">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-white" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portofolio">Portofolio</a>
+              <a class="nav-link text-white" href="#portofolio">Portofolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link text-white" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link text-white" href="#contact">Contact</a>
             </li>
           </ul>
-          <div class="gap-2 d-none d-lg-inline-block">
-            <a href="https://github.com/Pinjay8/" class="text-black"><i class="bx bxl-github bx-md"></i></a>
-            <a href="https://www.linkedin.com/in/alvincennanda/"><i class="bx bxl-linkedin bx-md"></i></a>
-            <a href="https://www.instagram.com/alvin_cennanda/" class="text-pink"><i class="bx bxl-instagram bx-md"></i></a>
+          <div class="gap-2 d-none d-lg-inline-flex justify-content-center align-items-center ">
+            <a href="https://github.com/Pinjay8/"><i class="bx bxl-github bx-md  text-white"></i></a>
+            <a href="https://www.linkedin.com/in/alvincennanda/"><i class="bx bxl-linkedin bx-md "></i></a>
+            <a href="https://www.instagram.com/alvin_cennanda/" class="text-pink"><i class="bx bxl-instagram bx-md "></i></a>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <!-- Header -->
-    <section class="header-section overflow-x-auto" id="header">
+    <section class="header-section overflow-x-auto min-vh-100" id="header">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md-6 animate__animated animate__fadeInLeft">
-            <h5 class="fw-semibold">Hello, I'm</h5>
-            <h1 class="text-orange mb-4">Alvin Cennanda</h1>
-            <h5 class="text-uppercase fw-bold mb-2 lh-lg">
-              Front End Developer<br class="d-none d-md-block" />
-              Based in Yogyakarta, Indonesia 🚩
+            <h5 class="fw-semibold text-white">Hello, I'm</h5>
+            <h1 class="text-orange mb-3">Alvin Cennanda</h1>
+            <h5 class="text-uppercase fw-semibold mb-2 lh-lg text-white">
+              Front End Developer
+  
             </h5>
             <p class="about-title text-secondary lh-lg">
-              Passionated and dedicated Informatics student at Atma Jaya University in Yogyakarta, with a keen interest in becoming a Front-End Developer. Have basic knowledge of the programming languages such as HTML, CSS, Javascript,
-              Tailwind, Laravel ,and Bootstrap. I enjoy learning new things, challenges, and working collaboratively in teams. Active working on projects to enhance my Front-End skills and gain more experience.
+              Passionated and dedicated Informatics student at Atma Jaya University in Yogyakarta, with a keen interest in becoming a Front-End Developer. Have basic knowledge of the languages such as HTML, CSS, Javascript, Tailwind,
+              Laravel ,and Bootstrap. I enjoy learning new things, challenges, and working collaboratively in teams. Active working on projects to enhance my Front-End skills and gain more experience.
             </p>
-            <a href="https://drive.google.com/file/d/1YUYFbDvB5sQ8VThXXaC8CONXpjHnbtnD/view?usp=sharing" class="header-skill d-inline-flex align-items-center gap-2 border border-warning p-2 rounded-pill"
+            <a href="https://drive.google.com/file/d/1YUYFbDvB5sQ8VThXXaC8CONXpjHnbtnD/view?usp=sharing" class="header-skill d-inline-flex align-items-center gap-2 border border-warning p-2 rounded-pill text-white"
               >Download CV <i class="bx bx-right-arrow-alt fs-4"></i
             ></a>
             <br />
             <div class="d-flex align-items-center gap-4 mt-5">
               <div class="d-flex align-items-center gap-2">
-                <h2 class="header-skill fw-bold mb-0">1+</h2>
+                <h2 class="header-skill fw-bold mb-0 text-white">1+</h2>
                 <h6 class="text-secondary mb-0">Experience</h6>
               </div>
               <div class="d-flex align-items-center gap-2">
-                <h2 class="header-skill fw-bold mb-0">2</h2>
+                <h2 class="header-skill fw-bold mb-0 text-white">2</h2>
                 <h6 class="text-secondary mb-0">Real Project</h6>
               </div>
             </div>
@@ -83,14 +84,14 @@
 
     <!-- Portofolio -->
 
-    <section class="portofolio-section overflow-x-hidden" id="portofolio" data-aos="fade-right" data-aos-duration="1000">
+    <section class="portofolio-section overflow-x-hidden" id="portofolio" >
       <div class="container">
-        <p class="text-orange fw-semibold">Project Portofolio</p>
-        <h2 class="section-title mb-5">Selected Works</h2>
-        <div class="swiper portofolio-swipper">
+        <p class="text-orange fw-semibold" data-aos="fade-right" data-aos-duration="500" data-aos-delay=600">Project Portofolio</p>
+        <h2 class="section-title mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-delay="700">Selected Works</h2>
+        <div class="swiper portofolio-swipper" >
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card h-100">
+            <div class="swiper-slide"   >
+              <div class="card h-100 bg-black text-white" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200">
                 <img src="./img/PictureGoFit.jpg" alt="" class="card-img-top overflow-hidden" />
                 <div class="card-body">
                   <h4 class="fw-semibold">GoFit</h4>
@@ -104,7 +105,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="card h-100">
+              <div class="card h-100 bg-black text-white" data-aos="fade-down" data-aos-duration="500" data-aos-delay="1200">
                 <img src="./img/Mockup Team.png" alt="" class="card-img-top overflow-hidden" />
                 <div class="card-body">
                   <h4 class="fw-semibold">Team</h4>
@@ -129,7 +130,7 @@
     </section>
 
     <!-- Skills -->
-    <section class="skills-section overflow-x-hidden" id="skills">
+    <section class="skills-section overflow-x-hidden"  id="skills">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
@@ -210,8 +211,8 @@
     </section>
 
     <!-- Working Period-->
-    <section class="timeline-section overflow-x-hidden" id="timeline" data-aos="fade-up">
-      <div class="container">
+    <section class="timeline-section overflow-x-hidden" id="timeline" >
+      <div class="container" data-aos="fade-up">
         <p class="text-orange fw-semibold">Timeline</p>
         <h2 class="section-title mb-5">Organization</h2>
 
@@ -230,7 +231,7 @@
 
     <!-- Contact -->
 
-    <section class="portofolio-section overflow-x-hidden" id="contact">
+    <section class="contact-section overflow-x-hidden" id="contact">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md-6" data-aos="fade-down" data-aos-easing="linear">
@@ -250,7 +251,7 @@
             </div>
           </div>
           <div class="col-md-5" data-aos="fade-down" data-aos-easing="linear">
-            <form action="">
+            <form action="#">
               <input type="text" name="name" id="name" placeholder="Name" class="form-control rounded-0 mb-2" />
               <input type="email" name="email" id="email" placeholder="Email" class="form-control rounded-0 mb-2" />
               <textarea name="body" id="body" placeholder="Message" cols="30" rows="3" class="form-control rounded-0 mb-3"></textarea>
@@ -261,7 +262,7 @@
       </div>
     </section>
 
-    <footer class="py-3 overflow-x-hidden">
+    <footer class="py-3 overflow-x-hidden" style="background-color: #0D1117;">
       <div class="container">
         <h6 class="text-white mb-0">Copyright &copy; By Alvin Cennanda. All Right Reserved</h6>
       </div>
