@@ -83,6 +83,12 @@ section a {
   color: greenyellow;
 }
 
+.icon-dev img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
 /* End Utilities */
 
 /* Header */
@@ -127,11 +133,11 @@ section a {
 /* End Header */
 
 /* Portofolio */
-.portofolio-section .card .card-img-top {
+/* .portofolio-section .card .card-img-top {
   height: 250px;
   width: 100%;
   object-fit: cover;
-}
+} */
 
 .portofolio-section {
   background-image: url(img/wave.svg);
@@ -176,20 +182,15 @@ section a {
   background-image: url(img/wave_2.svg);
   background-repeat: no-repeat;
   background-position: top;
+  padding: 200px 0;
 }
 
 /* End News */
 
 footer {
-  background-color: black;
+  background-color: #0d1117;
   color: white;
   text-align: center;
-}
-
-@media screen and (max-width: 576px) {
-  .card-title {
-    font-size: 10px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -197,21 +198,19 @@ footer {
     font-size: 12px;
   }
 
-  .portofolio-section .card .card-img-top {
-    height: 200px;
-  }
-
-  .header-section,
   .header-img {
     margin-top: 100px;
+  }
+
+  .icon-dev img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    padding: 1px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .card-title {
-    font-size: 11px;
-  }
-
   .navbar-collapse {
     margin-top: 10px;
   }

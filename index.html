@@ -15,10 +15,10 @@
   <body>
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg overflow-x-hidden fixed-top" data-bs-theme="dark"> 
+    <nav class="navbar navbar-expand-lg overflow-x-hidden fixed-top" data-bs-theme="dark">
       <div class="container py-3">
         <a class="navbar-brand fw-bold text-white" href="#">AceDev.</a>
-        <button class="navbar-toggler border-0 shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -36,10 +36,10 @@
               <a class="nav-link text-white" href="#contact">Contact</a>
             </li>
           </ul>
-          <div class="gap-2 d-none d-lg-inline-flex justify-content-center align-items-center ">
-            <a href="https://github.com/Pinjay8/"><i class="bx bxl-github bx-md  text-white"></i></a>
-            <a href="https://www.linkedin.com/in/alvincennanda/"><i class="bx bxl-linkedin bx-md "></i></a>
-            <a href="https://www.instagram.com/alvin_cennanda/" class="text-pink"><i class="bx bxl-instagram bx-md "></i></a>
+          <div class="gap-2 d-none d-lg-inline-flex justify-content-center align-items-center">
+            <a href="https://github.com/Pinjay8/"><i class="bx bxl-github bx-md text-white"></i></a>
+            <a href="https://www.linkedin.com/in/alvincennanda/"><i class="bx bxl-linkedin bx-md"></i></a>
+            <a href="https://www.instagram.com/alvin_cennanda/" class="text-pink"><i class="bx bxl-instagram bx-md"></i></a>
           </div>
         </div>
       </div>
@@ -52,10 +52,7 @@
           <div class="col-md-6 animate__animated animate__fadeInLeft">
             <h5 class="fw-semibold text-white">Hello, I'm</h5>
             <h1 class="text-orange mb-3">Alvin Cennanda</h1>
-            <h5 class="text-uppercase fw-semibold mb-2 lh-lg text-white">
-              Front End Developer
-  
-            </h5>
+            <h5 class="text-uppercase fw-semibold mb-2 lh-lg text-white">Front End Developer</h5>
             <p class="about-title text-secondary lh-lg">
               Passionated and dedicated Informatics student at Atma Jaya University in Yogyakarta, with a keen interest in becoming a Front-End Developer. Have basic knowledge of the languages such as HTML, CSS, Javascript, Tailwind,
               Laravel ,and Bootstrap. I enjoy learning new things, challenges, and working collaboratively in teams. Active working on projects to enhance my Front-End skills and gain more experience.
@@ -84,35 +81,106 @@
 
     <!-- Portofolio -->
 
-    <section class="portofolio-section overflow-x-hidden" id="portofolio" >
+    <section class="portofolio-section overflow-x-hidden" id="portofolio">
       <div class="container">
-        <p class="text-orange fw-semibold" data-aos="fade-right" data-aos-duration="500" data-aos-delay=600">Project Portofolio</p>
+        <p class="text-orange fw-semibold" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600">Project Portofolio</p>
         <h2 class="section-title mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-delay="700">Selected Works</h2>
-        <div class="swiper portofolio-swipper" >
+        <div class="swiper portofolio-swipper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"   >
-              <div class="card h-100 bg-black text-white" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200">
-                <img src="./img/PictureGoFit.jpg" alt="" class="card-img-top overflow-hidden" />
+            <div class="swiper-slide">
+              <div class="card h-100 bg-black text-white rounded rounded-top-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200">
+                <img src="./img/PictureGoFit.jpg" alt="" class="card-img-top overflow-hidden rounded rounded-top-3 object-fit-cover" />
                 <div class="card-body">
                   <h4 class="fw-semibold">GoFit</h4>
                   <p class="opacity-50 text-justify card-title">
                     Gofit is a website and android-based application that can be used by the general public. GoFit is also intended for employees to manage various data such as members, instructors, and gym transactions.
                   </p>
                 </div>
-                <div class="bg-dark rounded ms-auto me-3 mb-2">
-                  <a href="https://github.com/Pinjay8/GoFit" class="fs-7 d-flex align-items-center text-white px-2 gap-1"><i class="bx bxl-github bx-md"></i>Code</a>
+                <div class="row">
+                  <div class="col-12 px-4 mb-2">
+                    <h5>Technologies</h5>
+                  </div>
+                </div>
+                <div class="d-inline-flex justify-content-between align-items-center mx-2 mb-2">
+                  <div class="icon-dev d-flex align-items-center">
+                    <img src="./img/icon-laravel.svg" />
+                    <img src="./img/icon-html.svg" />
+                    <img src="./img/icon-css.svg" />
+                    <img src="./img/icon-js.svg" />
+                    <img src="./img/icon-bootstrap.png" />
+                  </div>
+                  <a href="https://github.com/Pinjay8/GoFit-Website.git" class="bg-dark fs-7 d-flex align-items-center text-white px-2 gap-1 rounded"><i class="bx bxl-github bx-md"></i>Code</a>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="card h-100 bg-black text-white" data-aos="fade-down" data-aos-duration="500" data-aos-delay="1200">
-                <img src="./img/Mockup Team.png" alt="" class="card-img-top overflow-hidden" />
+              <div class="card h-100 bg-black text-white border-0 rounded-top-3" data-aos="fade-down" data-aos-duration="500" data-aos-delay="1200">
+                <img src="./img/Team.png" alt="Gambar Team" class="rounded-top-3 overflow-hidden object-fit-cover" />
                 <div class="card-body">
                   <h4 class="fw-semibold">Team</h4>
                   <p class="opacity-50 text-justify card-title">Team is a website application used by everyone and provides news blogs that can be read by readers.</p>
                 </div>
-                <div class="bg-dark rounded ms-auto me-3 mb-2">
-                  <a href="https://github.com/Pinjay8/GoFit" class="fs-7 d-flex align-items-center text-white px-2 gap-1"><i class="bx bxl-github bx-md"></i>Code</a>
+                <div class="row">
+                  <div class="col-12 px-4 mb-2">
+                    <h5>Technologies</h5>
+                  </div>
+                </div>
+                <div class="d-inline-flex justify-content-between align-items-center mx-2 mb-2">
+                  <div class="icon-dev d-flex align-items-center">
+                    <img src="./img/icon-html.svg" />
+                    <img src="./img/icon-css.svg" />
+                    <img src="./img/icon-js.svg" />
+                    <img src="./img/icon-bootstrap.png" />
+                  </div>
+                  <a href="https://github.com/Pinjay8/Team" class="bg-dark fs-7 d-flex align-items-center text-white px-2 gap-1 rounded"><i class="bx bxl-github bx-md"></i>Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card h-100 bg-black text-white border-0 rounded-top-3" data-aos="fade-down" data-aos-duration="500" data-aos-delay="1200">
+                <img src="./img/Portofolio/Quasha-Construction.png" alt="Gambar Team" class="rounded-top-3 overflow-hidden object-fit-cover" />
+                <div class="card-body">
+                  <h4 class="fw-semibold">Quasha Construction</h4>
+                  <p class="opacity-50 text-justify card-title">
+                    Quasha construction, also known as the Quasha method or Quasha technique, is a construction project delivery method that has gained some popularity in the construction industry.
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-12 px-4 mb-2">
+                    <h5>Technologies</h5>
+                  </div>
+                </div>
+                <div class="d-inline-flex justify-content-between align-items-center mx-2 mb-2">
+                  <div class="icon-dev d-flex align-items-center">
+                    <img src="./img/icon-html.svg" />
+                    <img src="./img/icon-css.svg" />
+                    <img src="./img/icon-js.svg" />
+                    <img src="./img/icon-bootstrap.png" />
+                  </div>
+                  <a href="https://github.com/Pinjay8/Quasha-Construction" class="bg-dark fs-7 d-flex align-items-center text-white px-2 gap-1 rounded"><i class="bx bxl-github bx-md"></i>Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card h-100 bg-black text-white border-0 rounded-top-3" data-aos="fade-down" data-aos-duration="500" data-aos-delay="1200">
+                <img src="./img/Portofolio/Quasha-Express.png" alt="Gambar Team" class="rounded-top-3 overflow-hidden object-fit-cover" />
+                <div class="card-body">
+                  <h4 class="fw-semibold">Quasha Express</h4>
+                  <p class="opacity-50 text-justify card-title">Quasha Express is a website that features an interactive and responsive concept for food delivery for users.</p>
+                </div>
+                <div class="row">
+                  <div class="col-12 px-4 mb-2">
+                    <h5>Technologies</h5>
+                  </div>
+                </div>
+                <div class="d-inline-flex justify-content-between align-items-center mx-2 mb-2">
+                  <div class="icon-dev d-flex align-items-center">
+                    <img src="./img/icon-html.svg" />
+                    <img src="./img/icon-css.svg" />
+                    <img src="./img/icon-js.svg" />
+                    <img src="./img/icon-bootstrap.png" />
+                  </div>
+                  <a href="https://github.com/Pinjay8/QuashaExpress" class="bg-dark fs-7 d-flex align-items-center text-white px-2 gap-1 rounded"><i class="bx bxl-github bx-md"></i>Code</a>
                 </div>
               </div>
             </div>
@@ -130,7 +198,7 @@
     </section>
 
     <!-- Skills -->
-    <section class="skills-section overflow-x-hidden"  id="skills">
+    <section class="skills-section overflow-x-hidden" id="skills">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
@@ -211,7 +279,7 @@
     </section>
 
     <!-- Working Period-->
-    <section class="timeline-section overflow-x-hidden" id="timeline" >
+    <section class="timeline-section overflow-x-hidden" id="timeline">
       <div class="container" data-aos="fade-up">
         <p class="text-orange fw-semibold">Timeline</p>
         <h2 class="section-title mb-5">Organization</h2>
@@ -255,14 +323,14 @@
               <input type="text" name="name" id="name" placeholder="Name" class="form-control rounded-0 mb-2" />
               <input type="email" name="email" id="email" placeholder="Email" class="form-control rounded-0 mb-2" />
               <textarea name="body" id="body" placeholder="Message" cols="30" rows="3" class="form-control rounded-0 mb-3"></textarea>
-              <button class="btn btn-orange w-100 rounded-0">Submit</button>
+              <button class="btn btn-orange w-100 rounded-5">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="py-3 overflow-x-hidden" style="background-color: #0D1117;">
+    <footer class="py-3 overflow-x-hidden">
       <div class="container">
         <h6 class="text-white mb-0">Copyright &copy; By Alvin Cennanda. All Right Reserved</h6>
       </div>
